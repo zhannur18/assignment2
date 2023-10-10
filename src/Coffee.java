@@ -1,10 +1,10 @@
-// Step 1: Create an interface or abstract class for the component (the base object).
+// Step 1:interface or abstract class for the component (the base object).
 interface Coffee {
     double cost();
     String getDescription();
 }
 
-// Step 2: Create a concrete component class (the base coffee).
+// Step 2: component class (the base coffee).
 class BasicCoffee implements Coffee {
     @Override
     public double cost() {
@@ -17,7 +17,7 @@ class BasicCoffee implements Coffee {
     }
 }
 
-// Step 3: Create decorator classes that implement the same interface as the component.
+// Step 3: decorator classes that implement the same interface as the component.
 // These decorators add additional behavior.
 
 // Decorator 1: MilkDecorator
