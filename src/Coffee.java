@@ -4,7 +4,7 @@ interface Coffee {
     String getDescription();
 }
 
-// Step 2: component class (the base coffee).
+// Step 2:component class (the base coffee).
 class BasicCoffee implements Coffee {
     @Override
     public double cost() {
